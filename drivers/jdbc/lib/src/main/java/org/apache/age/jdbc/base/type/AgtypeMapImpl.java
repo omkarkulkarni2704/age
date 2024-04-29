@@ -94,7 +94,7 @@ public class AgtypeMapImpl extends HashMap<String, Object> implements Cloneable,
 
     @Override
     public AgtypeList getList(String key) throws InvalidAgtypeException {
-        return AgtypeUtil.getList(get(key));
+        return AgtypeUtil.getList(get(key));  
     }
 
     @Override

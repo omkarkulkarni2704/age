@@ -84,7 +84,7 @@ public class AgeBasic {
      * Creating a 'demo_graph'.
      * Then adding some Nodes.
      * Then connecting them with some relation.
-     */
+     */ 
     public static void createGraph() throws SQLException {
         Statement statement = connection.createStatement();
 
